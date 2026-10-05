@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "name": "Voldo the Crawling Menace",
   "tagline": "A blindfolded, clawed crawler enemy with a Terraria boss health bar creeps around the skate park and lunges at the bird when it skates close. Grinding past it or hopping over it makes it stumble and drop little Terraria coins. Hitting it with a trick combo stuns it for a few seco",
+  "how_to_play": [
+    "Voldo, a blindfolded crawler boss with a Terraria health bar, stalks you and lunges when you get close.",
+    "Hop over him or grind past him to make him stumble and spill coins, then skate through them to collect.",
+    "Land a trick combo near him to stun him, then hit him while he is stunned for double damage.",
+    "Below half health he gets enraged; beat him and he crawls back out a few seconds later.",
+    "The game opens in the playground and Voldo digs out of the floor in front of you."
+  ],
   "kind": "mashup",
   "games": [
     {
@@ -120,8 +127,5 @@
     "id": "skatebird",
     "status": "draft"
   },
-  "built_at": "2026-10-05T15:26:52.549Z",
-  "notes": [
-    "Install BepInEx 5 (64-bit) into your SkateBIRD folder, then copy the BepInEx folder from this mod's release into it and start the game. Voldo wakes up in the Playground level: hop over him or grind past for coins, land a combo to stun him."
-  ]
+  "built_at": "2026-10-05T15:26:52.549Z"
 }
