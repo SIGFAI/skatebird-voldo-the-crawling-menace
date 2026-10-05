@@ -1,0 +1,127 @@
+{
+  "id": "sigf/skatebird-voldo-the-crawling-menace",
+  "version": "1.0.0",
+  "name": "Voldo the Crawling Menace",
+  "tagline": "A blindfolded, clawed crawler enemy with a Terraria boss health bar creeps around the skate park and lunges at the bird when it skates close. Grinding past it or hopping over it makes it stumble and drop little Terraria coins. Hitting it with a trick combo stuns it for a few seco",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "skatebird",
+      "role": "host",
+      "engine": "SkateBIRD (itch build, Unity 2019.4.20f1 Mono, 64-bit, game exe SkateBIRD.exe) + BepInEx 5.4.23.2 x64 C# plugin (net472)"
+    },
+    {
+      "game": "terraria",
+      "role": "guest",
+      "label": "Terraria"
+    }
+  ],
+  "requires": [
+    {
+      "id": "bepinex"
+    }
+  ],
+  "install": [
+    {
+      "game": "skatebird",
+      "strategy": "profile",
+      "files": [
+        {
+          "src": "skatebird-voldo-the-crawling-menace.zip",
+          "dst": "{game}",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/cloth.png",
+              "sha256": "5c7faa5c8d7a9488073ca37e0e43356330e1c5601ed6d348e2385ed62be48151"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/coin_copper.png",
+              "sha256": "22c684d6625034dad7c9ad0f8f52ab98393e6c448deb9a8f91ba675fe808c5f2"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/coin_icon.png",
+              "sha256": "9f8e6e0bee692a2f01b41a83f3fa37e7a9454a8b24034baf8b6455c6b0e8cbe4"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/coin_silver.png",
+              "sha256": "fd05e5dba94ae1b13e960f60971f16d4723c041cd2b33d3d7ee0c2685b18d133"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/coin.wav",
+              "sha256": "cecfb83a6674a6dcbfbef720c9b755138783609a1c361bae4862ef42dcdcbb32"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/death.wav",
+              "sha256": "c8291898091e4a337c6828e3b1831cf295512e652457ab1c86d8da1e6e868257"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/growl.wav",
+              "sha256": "2b66024c6476f6116f8f674be061001fb46496475c412a4aa5a6bbb3462b52b8"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/hit.wav",
+              "sha256": "ee4453c4b65c605a7bc67a8b3275c5d451b1e5889837026f196794ee4827a627"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/screech.wav",
+              "sha256": "9b6d62bee76aaa64723e1d88e13f038c344d09397a87024a9f24c236aaa3ea4b"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/skin.png",
+              "sha256": "8a72f17d465e68879f2bb4eb24645e992cdb9a3cdc066b6070f3a244d6607df5"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/stun.wav",
+              "sha256": "c5a505d79bfb021fe7b760839bccd1381149d506d34ead2d334cd4fa2452453a"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/SigfMix.dll",
+              "sha256": "7e7f304e97bc6d0f9f08656db23fc954bdf7242efd88a5fb296f370f2b726f05"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/SigfMix.pdb",
+              "sha256": "777004b6c1e1ac7ea7b456b8de1bb41beb5231d0233a263cdaea1b96eac7083a"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/skatebird-voldo-the-crawling-menace/releases/download/v1.0.0/skatebird-voldo-the-crawling-menace.zip",
+          "sha256": "d80a39831196d2fa829934592aad3330bd96c6238741bac3a3897d90dd4d91c7",
+          "size": 801884
+        }
+      ],
+      "loader": "bepinex"
+    }
+  ],
+  "launch": [
+    {
+      "game": "skatebird",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "skatebird-voldo-the-crawling-menace.zip",
+      "url": "https://github.com/SIGFAI/skatebird-voldo-the-crawling-menace/releases/download/v1.0.0/skatebird-voldo-the-crawling-menace.zip",
+      "sha256": "d80a39831196d2fa829934592aad3330bd96c6238741bac3a3897d90dd4d91c7",
+      "size": 801884
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/skatebird-voldo-the-crawling-menace",
+    "license": "MIT"
+  },
+  "media": {},
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "@MrMeow114",
+  "kit": {
+    "id": "skatebird",
+    "status": "draft"
+  },
+  "built_at": "2026-10-05T15:26:52.549Z",
+  "notes": [
+    "Install BepInEx 5 (64-bit) into your SkateBIRD folder, then copy the BepInEx folder from this mod's release into it and start the game. Voldo wakes up in the Playground level: hop over him or grind past for coins, land a combo to stun him."
+  ]
+}
